@@ -1,0 +1,80 @@
+#app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: 'Roboto', sans-serif;
+    background: url('99340.jpg') no-repeat;
+}
+
+#sign-in {
+    justify-self: flex-end;
+    align-self: center;
+    box-shadow: 40px -5px 20px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+}
+
+.h-100 {
+    height: 28rem;
+}
+
+.w-100 {
+    width: 28rem;
+}
+
+.text-indent {
+    text-indent: 5px;
+}
+
+#sign-in form input::placeholder {
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+
+#sign-in form button {
+    background: linear-gradient(90deg, rgba(189,110,168,1) 0%, rgba(123,99,178,1) 50%, rgba(57,87,188,1) 100%);
+    font-weight: 400;
+    font-size: 0.9rem;
+    box-shadow: 0 0 10px -5px rgba(0, 0, 0, 0.5);
+}
+
+#sign-in form button:hover {
+    transform: scale(1.05);
+}
+
+#sign-in form button:focus {
+    outline: none;
+}
+
+#sign-in form a:hover {
+    text-decoration: underline;
+}
+
+#sign-up {
+    background: radial-gradient(circle, rgba(64,43,90,1) 0%, rgba(56,38,89,1) 100%);
+}
+
+.active:focus {
+    display: inline;
+    border: 2px solid rgba(189,110,168,1);
+}
+
+#sign-up form button {
+    border: 1px solid rgba(229, 231, 235);
+}
+
+#sign-up form button:hover {
+    transform: scale(1.05);
+}
+
+#sign-up form button:focus {
+    outline: none;
+}
+
+.w-98 {
+    width: 26rem;
+}
+
+.h-98 {
+    height: 26rem;
+}
