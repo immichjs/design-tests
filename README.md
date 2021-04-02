@@ -1,1 +1,3 @@
-# Reposiório para praticar desenvolvimento de novas features.
+## Practicing-programming
+
+Reposiório para praticar desenvolvimento e praticas sobre programação
